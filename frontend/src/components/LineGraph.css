@@ -1,0 +1,17 @@
+.line-graph-container {
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.line-graph-h3 {
+   margin-bottom : 20px;
+   margin-left : 20px
+}
+
+@media (max-width: 768px) {
+    .line-graph-container {
+        padding: 10px;
+    }
+}

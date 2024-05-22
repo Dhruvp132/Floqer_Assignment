@@ -1,0 +1,14 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Floqer Assignment",
+  "main": "index.js",
+  "scripts": {
+    "both": "concurrently \"cd frontend && npm run dev\" \"cd backend && nodemon app.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
